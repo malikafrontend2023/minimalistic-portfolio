@@ -147,10 +147,11 @@ select:-webkit-autofill:focus {
 }
 
 .cta-button {
-  width: 200px;
+  display: inline-block;
+  min-width: 200px;
   border: 0;
   padding: 0;
-  background-color: #254257;
+  background-color: var(--dark-blue);
   color: var(--slightly-desaturated-cyan);
   display: flex;
   align-items: center;
@@ -161,10 +162,12 @@ select:-webkit-autofill:focus {
   width: 48px;
   height: 48px;
   padding: 16px 18px;
-  background-color: var(--dark-blue);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .cta-button__text {
+  flex-grow: 1;
+  text-align: center;
   padding: 17px 0;
   color: #fff;
   margin-left: auto;
@@ -181,21 +184,14 @@ select:-webkit-autofill:focus {
 }
 
 .cta-button:hover .cta-button__icon {
-  background-color: #57a695;
+  background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
 }
 
-.cta-button:active {
-  background-color: var(--light-grey);
-}
-
-.cta-button:active .cta-button__icon {
-  background-color: #d2d2d4;
-  color: #fff;
-}
-
-.cta-button:active .cta-button__text {
-  color: var(--grayish-dark-blue);
+.cta-button:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 /* LOGO */
@@ -316,19 +312,6 @@ select:-webkit-autofill:focus {
   line-height: 50px;
   letter-spacing: -0.446px;
 }
-
-.hero__cta-button {
-}
-
-.cta-button {
-}
-
-.cta-button__icon {
-}
-
-.cta-button__text {
-}
-
 
 
 /* SITE-FOOTER */
