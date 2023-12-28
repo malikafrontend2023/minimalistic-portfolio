@@ -244,6 +244,10 @@ select:-webkit-autofill:focus {
   list-style: none;
 }
 
+.sitenav__item--active {
+  color: var(--slightly-desaturated-cyan);
+}
+
 .sitenav__item:not(:last-child) {
   margin-right: 42px;
 }
@@ -259,8 +263,12 @@ select:-webkit-autofill:focus {
   white-space: nowrap;
 }
 
-.sitenav__link:hover {
+.sitenav__link--active {
   color: var(--slightly-desaturated-cyan);
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
 }
 
 .site-header__menu-button {
