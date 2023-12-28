@@ -140,10 +140,9 @@ select:-webkit-autofill:focus {
   color: var(--very-light-grey);
 }
 
-.button:active {
+.button:disabled {
   opacity: 0.2;
-  background-color: #fff;
-  color: var(--grayish-dark-blue);
+  pointer-events: none;
 }
 
 .cta-button {
