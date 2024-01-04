@@ -666,10 +666,28 @@ select:-webkit-autofill:focus {
 @media only screen and (max-width:650px) {
   .about-me__container {
     flex-direction: column;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .about-me__picture {
+    margin-bottom: 32px;
   }
 
   .about-me__info {
     margin-left: 0;
+  }
+
+  .about-me__line:nth-child(even) {
+    margin-bottom: 32px;
+  }
+
+  .about-me__line:last-child {
+    margin-top: 50px;
+  }
+
+  .about-me__info .project__name {
+    margin-bottom: 32px;
   }
 }
 
