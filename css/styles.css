@@ -811,10 +811,6 @@ select:-webkit-autofill:focus {
     padding-bottom: 80px;
   }
 
-  .project:not(:last-child) {
-    margin-bottom: 72px;
-  }
-
   .project, .projects__item:nth-child(even){
     width: 100%;
     flex-direction: column;
@@ -927,6 +923,10 @@ select:-webkit-autofill:focus {
 
   .project-hero {
     padding-top: 40px;
+  }
+
+  .project:not(:last-child) {
+    margin-bottom: 72px;
   }
 
   .cta {
