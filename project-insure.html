@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Insure</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -38,68 +38,97 @@
 
   <main class="main-content">
 
-    <section class="projects">
-      <div class="projects__container container">
-        <ul class="projects__list">
-          <!-- PROJECT -->
-          <li class="projects__item project">
-            <img class="project__img" src="img/manage-preview.jpg" alt="" width="540" height="500" srcset="img/manage-preview.jpg 1x, img/manage-preview@2x.jpg 2x">
+    <!-- HERO -->
+    <div class="project-hero">
+      <div class="project-hero__container container">
 
-            <div class="project__info">
-              <hr class="project__line">
+        <picture class="project-hero__picture">
+          <source srcset="img/hero-img-insure.jpg 1x, img/hero-img-insure@2x.jpg 2x" media="(max-width:550px)">
 
-              <h3 class="project__name">Manage</h3>
-              <p class="project__text">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
-              <a class="button" href="project-manage.html">View project</a>
+          <source srcset="img/hero-img-insure-tablet.jpg 1x, img/hero-img-insure-tablet@2x.jpg 2x" media="(max-width:800px)">
 
-              <hr class="project__line">
+
+          <img class="project-hero-img" src="img/hero-img-insure-desktop.jpg" alt="" width="1110" height="500" srcset="img/hero-img-insure-desktop.jpg 1x, img/hero-img-insure-desktop@2x.jpg 2x">
+        </picture>
+      </div>
+    </div>
+
+    <section class="project-inform">
+      <div class="project-inform__container container">
+        <div class="project__info">
+          <hr class="project__line">
+
+          <h3 class="project__name">Insure</h3>
+          <p class="project__text">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
+
+          <span class="project-inform__structure">Interaction Design / Front End Development</span>
+          <span class="project-inform__structure">HTML / CSS / JS</span>
+
+          <a class="button" href="#">Visit website</a>
+
+          <hr class="project__line">
+        </div>
+
+        <div class="project-inform__right right">
+
+          <div class="right__info">
+            <h4 class="right__title">Project Background</h4>
+            <p class="right__text">This project was a front-end  challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style. </p>
+          </div>
+
+          <div class="right__static">
+            <h4 class="right__title">Static Previews</h4>
+            <picture class="right__picture">
+              <source srcset="img/static-preview-1-insure.jpg 1x, img/static-preview-1-insure@2x.jpg 2x" width="313" height="197" media="(max-width:650px)">
+
+              <source srcset="img/static-preview-1-insure-tablet.jpg 1x, img/static-preview-1-insure-tablet@2x.jpg 2x" width="689" height="434" media="(max-width:1000px)">
+
+
+              <img class="right__img" src="img/insure-page.jpg" alt="" width="635" height="400" srcset="img/insure-page.jpg 1x, img/insure-page@2x.jpg 2x">
+            </picture>
+
+            <picture class="right__picture">
+              <source srcset="img/static-preview-2-insure.jpg 1x, img/static-preview-2-insure.jpg 2x" width="313" height="197" media="(max-width:650px)">
+
+              <source srcset="img/static-preview-2-insure-tablet.jpg 1x, img/static-preview-2-insure-tablet@2x.jpg 2x" width="689" height="434" media="(max-width:1000px)">
+
+
+              <img class="right__img" src="img/insure-page2.jpg" alt="" width="635" height="400" srcset="img/insure-page2.jpg 1x, img/insure-page2@2x.jpg 2x">
+            </picture>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="project-controls">
+      <div class="project-controls__container container">
+        <ul class="project-controls__list">
+
+          <!-- PREV -->
+          <li class="project-controls__item prev-item">
+            <a class="project-controls__prev-icon" href="project-bookmark.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" fill="none"><path stroke="currentColor" d="M9 1 1 9l8 8"/></svg>
+            </a>
+            <div class="project-controls__info">
+              <a class="project-controls__project-name" href="project-bookmark.html">Bookmark</a>
+              <p class="project-controls__text">Previous Project</p>
             </div>
           </li>
-          <!-- PROJECT -->
-          <li class="projects__item project">
-            <img class="project__img" src="img/bookmark-preview-desktop.jpg" alt="" width="540" height="500" srcset="img/bookmark-preview-desktop.jpg 1x, img/bookmark-preview-desktop@2x.jpg 2x">
 
-            <div class="project__info">
-              <hr class="project__line">
-
-              <h3 class="project__name">Bookmark</h3>
-              <p class="project__text">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.</p>
-              <a class="button" href="project-bookmark.html">View project</a>
-
-              <hr class="project__line">
-            </div>
-          </li>
-          <!-- PROJECT -->
-          <li class="projects__item project">
-            <img class="project__img" src="img/insure-preview-desktop.jpg" alt="" width="540" height="500" srcset="img/insure-preview-desktop.jpg 1x, img/insure-preview-desktop@2x.jpg 2x">
-
-            <div class="project__info">
-              <hr class="project__line">
-
-              <h3 class="project__name">Insure</h3>
-              <p class="project__text">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page. The only JavaScript this project required was to enable the toggling of the mobile navigation.</p>
-              <a class="button" href="project-insure.html">View project</a>
-
-              <hr class="project__line">
-            </div>
-          </li>
-          <!-- PROJECT -->
-          <li class="projects__item project">
-            <img class="project__img" src="img/fylo-preview-desktop.jpg" alt="" width="540" height="500" srcset="img/fylo-preview-desktop.jpg 1x, img/fylo-preview-desktop@2x.jpg 2x">
-
-            <div class="project__info">
-              <hr class="project__line">
-
-              <h3 class="project__name">Fylo</h3>
-              <p class="project__text">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive. I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.</p>
-              <a class="button" href="project-fylo.html">View project</a>
-
-              <hr class="project__line">
+          <!-- NEXT -->
+          <li class="project-controls__item next-item">
+            <a class="project-controls__next-icon" href="project-fylo.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" fill="none"><path stroke="currentColor" d="m1 1 8 8-8 8"/></svg>
+            </a>
+            <div class="project-controls__info">
+              <a class="project-controls__project-name" href="project-fylo.html">Fylo</a>
+              <p class="project-controls__text">Next Project</p>
             </div>
           </li>
         </ul>
       </div>
-    </section>
+    </div>
 
     <!-- CTA -->
     <div class="cta">
@@ -108,7 +137,6 @@
         <a class="button" href="contact-me.html">Contact me</a>
       </div>
     </div>
-
   </main>
 
   <footer class="site-footer">
@@ -120,8 +148,8 @@
       <!-- SITENAV -->
       <nav class="site-footer__sitenav sitenav">
         <ul class="sitenav__list">
-          <li class="sitenav__item"><a class="sitenav__link" href="index.html">Home</a></li>
-          <li class="sitenav__item"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Portfolio</a></li>
           <li class="sitenav__item"><a class="sitenav__link" href="contact-me.html">Contact me</a></li>
         </ul>
       </nav>
