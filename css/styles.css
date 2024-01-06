@@ -807,7 +807,7 @@ select:-webkit-autofill:focus {
   }
 
   .projects {
-    padding-top: 50px;
+    padding-top: 28px;
     padding-bottom: 80px;
   }
 
@@ -918,6 +918,7 @@ select:-webkit-autofill:focus {
   }
 
   .projects {
+    padding-top: 8px;
     padding-bottom: 80px;
   }
 
