@@ -77,7 +77,8 @@
 
             <div class="form__group">
               <label class="form__label" for="email-iput">Email Adress</label>
-              <input class="form__input" type="text" name="email" id="email-iput" placeholder="email@example.com" required>
+              <input class="form__input" type="text" name="email" id="email-iput" placeholder="email@example.com" required pattern = "[^@\s]+@[^@\s]+\.[^@\s]+" >
+              <div class="form__error-message">Please enter valid email.</div>
             </div>
 
             <div class="form__group">
