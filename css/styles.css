@@ -38,8 +38,6 @@
   font-display: swap;
 }
 
-
-
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -60,8 +58,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Public Sans", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 187.5%;
   background-color: var(--very-light-grey);
   color: var(--grayish-dark-blue);
 }
@@ -114,7 +112,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1190px;
+  max-width: 74.35rem;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: auto;
@@ -129,10 +127,10 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--grayish-dark-blue);
   background-color: #fff;
   color: var(--grayish-dark-blue);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -150,7 +148,7 @@ select:-webkit-autofill:focus {
 
 .cta-button {
   display: inline-block;
-  min-width: 200px;
+  min-width: 12.5rem;
   border: 0;
   padding: 0;
   background-color: var(--dark-blue);
@@ -175,10 +173,10 @@ select:-webkit-autofill:focus {
   color: #fff;
   margin-left: auto;
   margin-right: auto;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
 }
 
@@ -255,9 +253,9 @@ select:-webkit-autofill:focus {
   display: block;
   text-decoration: none;
   color: var(--grayish-dark-blue);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -298,9 +296,9 @@ select:-webkit-autofill:focus {
   color: var(--grayish-dark-blue);
   font-family: var(--font-family-ibarra);
   font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 /* ABOUT-ME */
@@ -505,9 +503,9 @@ select:-webkit-autofill:focus {
   color: var(--grayish-dark-blue);
   font-family: var(--font-family-ibarra);
   font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
   margin: 0;
   margin-bottom: 28px;
 }
@@ -565,16 +563,16 @@ select:-webkit-autofill:focus {
   margin: 0;
   margin-bottom: 28px;
   font-family: var(--font-family-ibarra);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 42px;
-  letter-spacing: -0.286px;
+  line-height: 105%;
+  letter-spacing: -0.01788rem;
 }
 
 .right__text {
   margin: 0;
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 0.9375rem;
+  line-height: 187.5%;
 }
 
 .right__img {
@@ -624,10 +622,11 @@ select:-webkit-autofill:focus {
   text-decoration: none;
   color: var(--grayish-dark-blue);
   font-family: var(--font-family-ibarra);
-  font-size: 32px;
-  line-height: 36px;
-  letter-spacing: -0.286px;
+  font-size: 2rem;
+  line-height: 112.5%;
+  letter-spacing: -0.01788rem;
 }
+
 .project-controls__project-name:hover {
   color: var(--slightly-desaturated-cyan);
 }
@@ -684,10 +683,10 @@ select:-webkit-autofill:focus {
   margin-right: 11%;
   width: 31%;
   font-family: var(--font-family-ibarra);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 .contact-me__text {
@@ -708,9 +707,9 @@ select:-webkit-autofill:focus {
 
 .form__label {
   width: 100%;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 187.5%;
   opacity: 0.8;
   margin-bottom: 8px;
 }
@@ -719,8 +718,8 @@ select:-webkit-autofill:focus {
   display: block;
   width: 100%;
   background-color: rgba(51, 50, 61, 0.1);
-  font-size: 13px;
-  line-height: 30px;
+  font-size: 0.8125rem;
+  line-height: 187.5%;
   padding: 9px 16px;
   border: 1px solid transparent;
 }
@@ -758,10 +757,10 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--grayish-dark-blue);
   background-color: var(--dark-blue);
   color: #fff;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -778,13 +777,13 @@ select:-webkit-autofill:focus {
 
 
 /* RESPONSIVE */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 31.25em) {
   .hero__img {
     height: 600px;
   }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 48em) {
   .hero__container {
     position: relative;
     z-index: 1;
@@ -810,19 +809,19 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64em) {
   .hero__info-wrapper {
     width: 445px;
   }
 
   .hero__heading {
     margin-bottom: 56px;
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 1;
   }
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 62.5em) {
   .about-me {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -895,7 +894,7 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (max-width:820px) {
+@media only screen and (max-width: 51.25em) {
   .cta {
     margin-bottom: 96px;
   }
@@ -930,14 +929,14 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 50em) {
   .manage-hero {
     padding-bottom: 40px;
   }
 
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 48em) {
   .project {
     margin-bottom: 50px;
   }
@@ -960,13 +959,13 @@ select:-webkit-autofill:focus {
   }
 
   .project__text {
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 0.9375rem;
+    line-height: 187.5%;
     margin-bottom: 35px;
   }
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width: 43.75em) {
   .manage-hero {
     padding-top: 16px;
   }
@@ -1051,7 +1050,7 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width: 40.625em) {
   .about-me {
     padding-bottom: 115px;
   }
@@ -1163,7 +1162,7 @@ select:-webkit-autofill:focus {
   }
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width: 34.375em) {
   .site-header {
     padding-top: 32px;
     padding-bottom: 24px;
@@ -1206,7 +1205,7 @@ select:-webkit-autofill:focus {
   .site-header__sitenav .sitenav__link {
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .site-header__sitenav .sitenav__link:hover {
