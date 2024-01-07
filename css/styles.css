@@ -421,6 +421,10 @@ select:-webkit-autofill:focus {
   color: var(--slightly-desaturated-cyan);
 }
 
+.contact-me .socials__link {
+  color: var(--grayish-dark-blue);
+}
+
 
 /* PROJECTS */
 .projects {
