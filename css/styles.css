@@ -645,6 +645,93 @@ select:-webkit-autofill:focus {
   display: block;
 }
 
+/* CONTACT-ME */
+.contact-me {
+  padding-top: 94px;
+  padding-bottom: 109px;
+}
+
+.contact-me--content-info {
+  padding-top: 48px;
+  padding-bottom: 47px;
+  margin-bottom: 48px;
+  border-top:  1px solid rgba(51, 50, 61, 0.15);
+  border-bottom:  1px solid rgba(51, 50, 61, 0.15);
+}
+
+.contact-me__content {
+  display: flex;
+}
+
+.contact-me__info-socials {
+  width: 57%;
+}
+
+.contact-me__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 11%;
+  width: 31%;
+  font-family: var(--font-family-ibarra);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+}
+
+.contact-me__text {
+  margin: 0;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.form {
+  width: 57%;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form__label {
+  width: 100%;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  width: 100%;
+  background-color: rgba(51, 50, 61, 0.1);
+  font-size: 13px;
+  line-height: 30px;
+  padding: 9px 16px;
+  border: 0;
+}
+
+.form__textarea {
+}
+
+.solid-button {
+  display: inline-block;
+  padding: 17px 32px;
+  border: 1px solid var(--grayish-dark-blue);
+  background-color: var(--dark-blue);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 200px;
+}
+
 
 /* RESPONSIVE */
 @media only screen and (min-width: 500px) {
@@ -768,12 +855,42 @@ select:-webkit-autofill:focus {
   .cta {
     margin-bottom: 96px;
   }
+
+  .contact-me {
+    padding-bottom: 96px;
+  }
+
+  .contact-me--content-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+
+  .contact-me__content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-me__title {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .contact-me__info-socials {
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width:800px) {
   .manage-hero {
     padding-bottom: 40px;
   }
+
 }
 
 @media only screen and (max-width:768px) {
@@ -990,6 +1107,15 @@ select:-webkit-autofill:focus {
 
   .project-inform .button {
     margin-top: 24px;
+  }
+
+  .contact-me {
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  .contact-me--content-info {
+    padding-top: 24px;
   }
 }
 
